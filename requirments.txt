@@ -1,0 +1,9 @@
+1. Receive requests from the above client
+2. Do necessary validations
+3. Have this service maintain some sort of data structure to hold your data (url and exe
+files).
+4. If the files already exist, do not overwrite them, but rather issue a warning that they exist
+and save the file with an incremented suffix (e.g: file_2.exe).
+5. If you want to impress, add the query param ?expert=True to the remote service
+entrypoint, observe the response structure and repeat above.
+6. Support for all CRUD actions.
